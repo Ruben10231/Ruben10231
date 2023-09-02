@@ -1,0 +1,12 @@
+ublic static void main(String[] args) {
+        //4
+        int numA = -9, numB = -5;
+        if (numA > 0 && numB > 0) {
+            System.out.println("Verdadero");
+        } else if (numA < 0 && numB < 0) {
+            System.out.println("Verdadero");
+        } else {
+            System.out.println("Falso");
+        }
+    }    
+}
