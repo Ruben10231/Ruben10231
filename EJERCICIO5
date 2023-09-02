@@ -1,0 +1,37 @@
+ public static void main(String[] args) {
+        // uso de switch
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresar un numero entero :");
+        int n = sc.nextInt();
+        String nombredia;
+        //uso de switch
+        switch (n) {
+            case 1:
+                nombredia = "Domingo";
+                break;
+            case 2:
+                nombredia = "Lunes";
+                break;
+            case 3:
+                nombredia = "martes";
+                break;
+            case 4:
+                nombredia = "Miercoles";
+                break;
+            case 5:
+                nombredia = "Jueves";
+                break;
+            case 6:
+                nombredia = "Viernes";
+                break;
+            case 7:
+                nombredia = "Sabado";
+                break;
+            default:
+                nombredia = "Ese dia no existe...";
+        }
+        // imprime resultado
+        System.out.println("Nombre del dia de la semana: " + nombredia);
+
+    }
+    
